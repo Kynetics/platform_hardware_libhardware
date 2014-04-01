@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-/*Copyright 2009-2012 Freescale Semiconductor, Inc.*/
+/*Copyright 2009-2014 Freescale Semiconductor, Inc.*/
 
 #ifndef ANDROID_GRALLOC_INTERFACE_H
 #define ANDROID_GRALLOC_INTERFACE_H
@@ -92,7 +92,7 @@ enum {
     GRALLOC_USAGE_HW_COMPOSER           = 0x00000800,
     /* buffer will be used with the framebuffer device */
     GRALLOC_USAGE_HW_FB                 = 0x00001000,
-    GRALLOC_USAGE_HW_FBX                = 0x00002000,
+    GRALLOC_USAGE_HW_FBX                = 0x00008000,
     /* buffer will be used with the HW video encoder */
     GRALLOC_USAGE_HW_VIDEO_ENCODER      = 0x00010000,
     /* buffer will be written by the HW camera pipeline */
